@@ -13,7 +13,9 @@ Setup
 
 First install the following dependencies (`pip install` is your friend):
 
-* ``django``
+* ``django`` 
+   Python 2.7 only supports django 1.11 please use:
+* ``django==1.11``
 * ``djangorestframework``
 * ``drf-nested-routers``
 
